@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DMV Form</title>
+    </head>
+    <body>
+        <article>
+            <header>
+                <h1>DMV New Applicatn't form </h1>
+            </header>
+            <section>
+                <form name="new licence form">
+                    <div>
+                        <label for ="firstName">Applicant's First Name:</label>
+                        <input type="text" id="firstName" name="fname" placeholder="Enter your firstName"/>
+                    </div>
+                    <br>
+                    <div>
+                        <label for ="lastName">Applicant's Last Name:</label>
+                        <input type="text" id="lastName" name="fname" placeholder="Enter your lastName"/>
+                    </div>
+                    <br>
+                    <div>
+                        <label for ="phoneNumber">Applicant's Phone Numner Name:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your phoneNumber"/>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Gender">Applicant's Gender</label>
+                        <div id="Gender">
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" value="Male"/>
+                            <label for="Female">Female</label>
+                            <input type="radio" id="female" name="gender" value="Female">
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Senior Citizen">Is applicant is senior citizen</label>
+                        <input type="checkbox" id="seniorCitizen" name="seniorcitizen">
+                    </div>
+                    <br>
+                    <button type="submit" id="submit">
+                        <span>Submit</span>
+                    </button>
+                    <button type="reset" id="reset">
+                        <span>Cancel</span>
+                    </button>
+
+                </form>
+            </section>
+            <footer>Form footer</footer>
+        </article>
+    </body>
+</html>
